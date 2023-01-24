@@ -68,6 +68,12 @@
     .hero{
         width: 480px;
     }
+    .hero-tittle{
+        font-size: 36px;
+        line-height: 1.11;
+
+    }
+    
     
     
 } 
@@ -273,7 +279,7 @@
     width: 24px;
     height: 24px;
     
-   
+    padding: 0;
    
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
