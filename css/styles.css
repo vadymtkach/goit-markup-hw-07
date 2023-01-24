@@ -1074,3 +1074,6 @@ textarea:focus{
     gap: 24px;
     display: flex;
 }
+.mobile-menu-open-icon{
+    border: none;
+}
