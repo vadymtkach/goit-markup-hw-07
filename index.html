@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webstudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">  
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
     
     
 </head>
@@ -26,15 +29,76 @@
                         
                     </ul>
                 </nav>
+
+                <button type="button" class="mobile-menu-open" data-menu-open>
+                    <svg class="mobile-menu-open-icon" width="32px" height="22px">
+                        <use href="./images/symbol-defs.svg#burger-icon" width="32px" height="22px"></use>
+                    </svg>
+                </button>
             
                     <ul class="auth-nav" >
             
                         <li class="item"><a class="contacts" href="info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="item"><a class="contacts" href="tel:+110001111111">+110001111111</a></li>
+                        <li class="item"><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                         
                     </ul>
     
             </div>
+        </div>
+
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="button-modal-mobile" type="button" data-menu-close>
+                    <svg class="icon-button-modal-mobile" width="8" height="8">
+                        <use href="./images/symbol-defs.svg#close-modal"></use>
+                    </svg>
+                </button>
+                <ul class="site-nav-mobile">
+                    <li class="item-mobile"><a class="nav-link-mobile" href="./index.html">Studio</a></li>
+                    <li class="item-mobile"><a class="nav-link-mobile" href="./portfolio.html">Portfolio</a></li>
+                    <li class="item-mobile"><a class="nav-link-mobile" href="">Contacts</a></li>
+                    
+                </ul>
+    
+                <ul class="auth-nav-mobile" >
+                    <li class="item-mobile-phone"><a class="contacts-mobile-phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="item-mobile-mail"><a class="contacts-mobile-mail" href="info@devstudio.com">info@devstudio.com</a></li>
+                    
+                    
+                </ul>
+                <ul class="team-link-set-mobile">
+    
+                    <li class="team-link-actions">
+                        <a href="" class="team-link-list">
+                            <svg class="team-link-item">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-link-actions">
+                        <a href="" class="team-link-list">
+                            <svg class="team-link-item">
+                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-link-actions">
+                        <a href="" class="team-link-list">
+                            <svg class="team-link-item">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-link-actions">
+                        <a href="" class="team-link-list">
+                            <svg class="team-link-item">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
       
 
@@ -114,9 +178,27 @@
                 <h2 class="what-wedo">What are we doing</h2>
     
                 <ul class="what-wedo-list">
-                    <li class="what-wedo-item"><img src="./images/wedo1.jpg" alt="computer" width="360"></li>
-                    <li class="what-wedo-item"><img src="./images/wedo2.jpg" alt="phone" width="360"></li>
-                    <li class="what-wedo-item"><img src="./images/wedo3.jpg" alt="computer and phone" width="360"></li>
+                    <li class="what-wedo-item">
+                        <img
+                        srcset="./images/wedo1@2x.jpg 2x"
+                        src="./images/wedo1.jpg"
+                         alt="computer" 
+                         width="360">
+                        </li>
+                    <li class="what-wedo-item">
+                        <img
+                        srcset="./images/wedo2@2x.jpg 2x" 
+                        src="./images/wedo2.jpg"
+                        alt="phone" 
+                        width="360">
+                        </li>
+                    <li class="what-wedo-item">
+                        <img
+                        srcset="./images/wedo3@2x.jpg 2x"
+                        src="./images/wedo3.jpg"
+                        alt="computer and phone"
+                        width="360">
+                        </li>
                 </ul>
             </div>
            
@@ -132,7 +214,12 @@
             
                 <ul class="our-team-list">
                     <li class="our-team-item">
-                        <img src="./images/mark.jpg" alt="mark" width="264" height="260">
+                        <img
+                        srcset="./images/mark.jpg"
+                        src="./images/mark@2x.jpg 2x"
+                        alt="mark"
+                        width="264"
+                        />
                         <div class="team-content">
                             <h3 class="card-name">Mark Guerrero</h3>
                             <p class="card-text">Product Designer</p>
@@ -173,7 +260,12 @@
                     </li>
     
                     <li class="our-team-item">
-                        <img src="./images/tom.jpg" alt="tom" width="264" height="260">
+                        <img
+                        srcset="./images/tom@2x.jpg 2x"
+                        src="./images/tom.jpg"
+                        alt="tom"
+                        width="264"
+                        />
                         <div class="team-content">
                             <h3 class="card-name">Tom Ford</h3>
                             <p class="card-text">Frontend Developer</p>
@@ -214,7 +306,12 @@
                     </li>
     
                     <li class="our-team-item">
-                        <img src="./images/camila.jpg" alt="Camilla" width="264" height="260">
+                        <img
+                        srcset="./images/camila@2x.jpg 2x"
+                        src="./images/camila.jpg"
+                        alt="Camilla"
+                        width="264"
+                        />
                         <div class="team-content">
                             <h3 class="card-name">Camila Garcia</h3>
                             <p class="card-text">Marketing</p>
@@ -253,7 +350,13 @@
                         </div>
                     </li>
     
-                    <li class="our-team-item"> <img src="./images/daniel.jpg" alt="daniel" width="264" height="260">
+                    <li class="our-team-item">
+                        <img
+                        srcset="./images/daniel@2x.jpg 2x"
+                        src="./images/daniel.jpg"
+                        alt="daniel"
+                        width="264"
+                        />
                         <div class="team-content">
                             <h3 class="card-name">Daniel Wilson</h3>
                             <p class="card-text">UI Designer</p>
@@ -361,46 +464,53 @@
     <footer>
         <div class="container">
             <div class="footer-media">
-                <div class="footer-content">
-                    <a class="footer-logo" href=""><span>WEB</span>STUDIO</a>
-                    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-                </div>
-    
-                <div class="social">
-                    <b class="footer-social-text">Social media</b>
+                    <div class="footer-tablet">
+                        <div class="footer-content">
+                            <a class="footer-logo" href=""><span>WEB</span>STUDIO</a>
+                            <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+                        </div>
+            
+                        <div class="social">
+                            <b class="footer-social-text">Social media</b>
+                            
+                            <ul class="footer-link-set">
+                
+                                <li class="footer-link-actions">
+                                    <a href="" class="footer-link-list">
+                                        <svg class="footer-link-item">
+                                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer-link-actions">
+                                    <a href="" class="footer-link-list">
+                                        <svg class="footer-link-item">
+                                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer-link-actions">
+                                    <a href="" class="footer-link-list">
+                                        <svg class="footer-link-item">
+                                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer-link-actions">
+                                    <a href="" class="footer-link-list">
+                                        <svg class="footer-link-item">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     
-                    <ul class="footer-link-set">
-        
-                        <li class="footer-link-actions">
-                            <a href="" class="footer-link-list">
-                                <svg class="footer-link-item">
-                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="footer-link-actions">
-                            <a href="" class="footer-link-list">
-                                <svg class="footer-link-item">
-                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="footer-link-actions">
-                            <a href="" class="footer-link-list">
-                                <svg class="footer-link-item">
-                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="footer-link-actions">
-                            <a href="" class="footer-link-list">
-                                <svg class="footer-link-item">
-                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    </div>
+                   
+                    
+                
+                
 
                 <form class="footer-form">
                     
@@ -510,6 +620,7 @@
         </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
     
 </body>

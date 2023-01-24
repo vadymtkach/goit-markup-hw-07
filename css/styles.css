@@ -6,6 +6,11 @@
     --accent-cornflower: #E7E9FC;
     --light-cloud: #F4F4FD;
 }
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 
 .container{
@@ -15,7 +20,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    
+   
 }
 header{
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -642,7 +647,7 @@ button{
         position: relative;
         content: "";
         display: block;
-        bottom: -24px;
+        bottom: -20px;
         left: 0;
         height: 4px;
         border-radius: 2px;
@@ -755,7 +760,7 @@ footer{
 
 /* -----------------------footer-form-start------------------------ */
 .footer-form{
-    margin-left: 80px;
+    margin-left: 200px;
     position: relative;
     
 }
@@ -1057,3 +1062,15 @@ textarea:focus{
     margin-left: 4px;
 }
 /* -----------------------backdrop------------------------ */
+.mobile-menu-open{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    height: 22px;
+}
+.footer-tablet{
+    width: 472px;
+    /* height: 80px; */
+    gap: 24px;
+    display: flex;
+}
