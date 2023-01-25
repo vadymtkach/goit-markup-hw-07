@@ -359,7 +359,8 @@ button{
 .our-team-item{
     background-color: var(--color-white);
 
-    margin-right: 24px;
+    /* margin-right: 24px; */
+    margin-right: 0;
     
     border-radius: 0px 0px 4px 4px;
 
@@ -369,6 +370,9 @@ button{
     border-radius: 0px 0px 4px 4px;
     
 }
+/* .our-team-item:last-child{
+    margin-right: 0;
+} */
 .team-content{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -647,7 +651,7 @@ button{
         position: relative;
         content: "";
         display: block;
-        bottom: -20px;
+        bottom: -24px;
         left: 0;
         height: 4px;
         border-radius: 2px;
@@ -760,7 +764,7 @@ footer{
 
 /* -----------------------footer-form-start------------------------ */
 .footer-form{
-    margin-left: 200px;
+    margin-left: 87px;
     position: relative;
     
 }
@@ -1069,9 +1073,9 @@ textarea:focus{
     height: 22px;
 }
 .footer-tablet{
-    width: 472px;
-    /* height: 80px; */
-    gap: 24px;
+    /* width: 472px;
+    height: 80px;
+    gap: 24px; */
     display: flex;
 }
 .mobile-menu-open-icon{

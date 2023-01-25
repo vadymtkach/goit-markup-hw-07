@@ -44,29 +44,40 @@
         margin-left: 118px;
         
     }
-    
+    .site-nav{
+        height: 70px;
+    }
     .main-nav{
         display: flex;
         justify-content: space-between;
         border: none;
         padding: 0;
+        height: 70px;
     } 
     .auth-nav .item{
         margin-right: 0;
+    }
+    .link-current:after{
+        bottom: -21px;
     }
 } 
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .hero image{
         width: 768px;
+        padding-top: 112px;
     }
     .hero{
         width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
     .contacts{
         font-size: 12px;
         line-height: 1.33;
+        padding: 0;
     }
+    
     
     
 } 
@@ -85,18 +96,19 @@
         display: none;
     }
     .feauters-list{
-        display: flex;
+        /* display: flex; */
         flex-wrap: wrap;
         justify-content: center;
+        gap: 24px;
     }
     .list-item{
-        margin-right: 0;
+        margin-right: 0px;
         margin-bottom: 72px;
 
         flex-basis: calc((100% - 30px) / 2);
     }
     .our-mission-tittle{
-        text-align: center;
+        /* text-align: center; */
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
@@ -108,7 +120,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .our-team{
-        width: 768px;
+        /* width: 768px; */
         margin-left: auto;
         margin-right: auto;
         padding-top: 96px;
@@ -124,7 +136,7 @@
         
         justify-content: center;
         row-gap: 64px;
-       
+        gap: 24px;
         
         
     }
@@ -154,7 +166,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
     footer{
-        width: 768px;
+        /* width: 768px; */
         /* display: block; */
         padding-top: 96px;
         padding-bottom: 96px;
@@ -185,7 +197,7 @@
         display: block;
     }
     .social{
-        margin-left: 0;
+        margin-left: 24px;
         margin-right: 0;
     
     }

@@ -12,5 +12,27 @@
         max-width: 1158px;
          
     }
+    .list-image{
+        margin-bottom: 8px;
+    }
+    .footer-tablet{
+       
+        display: flex;
+    }
+    .our-team-item{
+        background-color: var(--color-white);
     
+        margin-right: 24px;
+        
+        border-radius: 0px 0px 4px 4px;
+    
+        flex-direction: column;
+    
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+        
+    }
+    .our-team-item:last-child{
+        margin-right: 0;
+    }
 } 
