@@ -9,6 +9,7 @@
    
 }
 
+
 @media screen and (max-width: 767px){
     .container{
         width: 480px;
@@ -69,8 +70,8 @@
     }
     .hero{
         width: 480px;
-        /* padding-top: 112px; */
-        padding-bottom: 240px;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
     .hero-tittle{
         font-size: 36px;
@@ -128,7 +129,7 @@
 
 @media screen and (max-width: 767px){
     .our-team{
-        width: 480px;
+        /* width: 480px; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -147,7 +148,7 @@
 /* customers */
 @media screen and (max-width: 767px){
     .customers{
-        width: 480px;
+        /* width: 480px; */
         padding-top: 96px;
         padding-bottom: 96px;
         margin-left: auto;
@@ -202,7 +203,7 @@
 
 @media screen and (max-width: 767px){
     footer{
-        width: 480px;
+        /* width: 480px; */
         display: block;
         padding-top: 96px;
         padding-bottom: 96px;
@@ -380,7 +381,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
-    color: #434455;
+    color: #4D5AE5;
     
     text-decoration: none;
 }
