@@ -137,9 +137,18 @@
         
         justify-content: center;
         row-gap: 64px;
-        gap: 24px;
+        /* gap: 24px; */
         
         
+    }
+    .our-team-item{
+        margin-right: 24px;
+    }
+    .our-team-item:last-child{
+        margin-right: 0;
+    }
+    .our-team-item:nth-child(2){
+        margin-right: 0;
     }
     
 } 
