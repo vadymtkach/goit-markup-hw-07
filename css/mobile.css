@@ -12,11 +12,18 @@
 
 @media screen and (max-width: 767px){
     .container{
-        width: 480px;
+        max-width: 480px;
         margin-left: auto;
         margin-right: auto;
     }
 } 
+@media screen and (min-width: 320px) and (max-width: 479px){
+    .container{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (max-width: 1199px){
     .what-we-do{
       display: none;
@@ -91,7 +98,7 @@
 
 @media screen and (max-width: 767px){
     .our-mission{
-        width: 480px;
+        width: 100%;
         padding-top: 96px;
         padding-bottom: 96px;
         margin-left: auto;
@@ -129,7 +136,7 @@
 
 @media screen and (max-width: 767px){
     .our-team{
-        /* width: 480px; */
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -142,13 +149,14 @@
         margin-top: 72px;
         margin-bottom: 72px;
     }
+    
 } 
 /* our-team */
 
 /* customers */
 @media screen and (max-width: 767px){
     .customers{
-        /* width: 480px; */
+        width: 100%;
         padding-top: 96px;
         padding-bottom: 96px;
         margin-left: auto;
@@ -199,6 +207,7 @@
 } 
 /* customers-end */
 
+
 /* footer */
 
 @media screen and (max-width: 767px){
@@ -241,6 +250,7 @@
         display: block;
     }
     .social{
+        width: 100%;
         margin-left: 0;
         margin-right: 0;
         text-align: center;
@@ -249,7 +259,7 @@
         
     }
     .footer-link-set{
-        
+        width: 100%;
         padding-left: 135px;
         padding-right: 110px;
        margin-left: auto;
@@ -270,7 +280,7 @@
         
     }
     .subscribe-field{
-        width: 396px;
+        width: 100%;
         
     }
     .button-subscribe{
@@ -283,7 +293,14 @@
     }
     
 } 
-
+@media screen and (min-width: 320px) and (max-width: 479px){
+    .footer-link-set{
+        padding-left: 0;
+    }
+    .hero{
+        width: 100%;
+    }
+} 
 
 /* mobile-menu */
 
