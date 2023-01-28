@@ -851,7 +851,7 @@ footer{
     transform: translate(-50%, -50%) scale(1);
 
     width: 408px;
-    height: 584px;
+    min-height: 584px;
 
     background-color: #FCFCFC;
 
@@ -863,12 +863,14 @@ footer{
     padding-bottom: 24px;
 }
 
+
 .button-modal{
     width: 24px;
     height: 24px;
-    
-    bottom: 528px;
-    left:360px;
+    top: 24px;
+    right: 24px;
+    /* bottom: 528px;
+    left:360px; */
    
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);

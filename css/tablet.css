@@ -56,6 +56,10 @@
     } 
     .auth-nav .item{
         margin-right: 0;
+        margin-bottom: 4px;
+    }
+    .auth-nav .item:last-child{
+        margin-bottom: 0;
     }
     .link-current:after{
         bottom: -21px;
